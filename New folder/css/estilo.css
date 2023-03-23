@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.form-register{
+    width: 300px;
+    background: #6495ED;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    box-shadow: 7px 13px 37px;
+}
+.controls{
+    width: 100%;
+    background: #d6dbe6;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #2158be;
+    
+}
+.form-register .botons{
+    width: 100%;
+    background: #d6dbe6;
+    border: none;
+    padding: 12px;
+    color: black;
+}
+.container{
+    width: 600px;
+    height: 600px;
+    margin: 20px auto;
+    border: 10px solid #000;
+}
+.item{
+    background: blue;
+    width: 300px;
+    height: 300px;
+    color: white;
+    transform: translatex(50px);
+}
+.miTexto {
+    color: brown;
+    font-size: 100px;
+ }
+ .html{
+    color:black;
+    font-size: 25px;
+    font: monospace;
+
+ }
+ .css{
+    color:gray;
+    font-size: 20px;
+    font: sans-serif;
+ }
+ .miTexto2{
+    color: chartreuse;
+    font-size: 80px;
+ }
+ nav{
+    background: black;
+    height: 80px;
+    width: 100%;
+}
+nav ul li a
+{
+    color: #fff;
+    font-size: 18px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+.tipografias{
+    background-color: grey;
+}
+.monos {
+    background: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+
+.geor {
+    background: red;
+    font-family: georgia;
+    font-size: 25px;
+}
+
+.arial {
+    background: aqua;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+.impact {
+    background: darkolivegreen;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 35px;
+}
+
+.cursive {
+    background: darksalmon;
+    font-family: cursive;
+    font-size: 40px;
+}
+.cajaFlotante1{
+    background-color: blue;
+    color: white;
+    float: left;
+    width: 200px;
+    height: 100px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 40px;
+}
+.cajaFlotante2{
+    background-color: red;
+    color: white;
+    float: right;
+    width: 200px;
+    height: 100px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 40px;
+
+}
+.cajaFlotante3{
+    background-color: yellow;
+    color: black;
+    float: left;
+    width: 200px;
+    height: 100px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 40px;
+}
+.cajaFlotante4{
+    background-color: green;
+    color: white;
+    float: right;
+    width: 200px;
+    height: 100px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 40px;
+}
+
+.text{
+    color:black;
+    font-size: 25px;
+    font: monospace;
+    text-align: center;
+}
+
+.cuadrado{
+    background-color: aqua;
+    color: black;
+    width: 200px;
+    height: 100px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 40px;
+    position: fixed;
+
+}
+.rectangulo{
+    background-color: red;
+    color: black;
+    width: 400px;
+    height: 200px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 40px;
+}
+.circulo{
+    background-color: green;
+    color: black;
+    width: 20px;
+    height: 10px;
+    padding: 20px;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    top: 0;
+
+}
+
+.container:hover .item{
+    transform: translatey(50%);
+}
+.texto{
+    color:black;
+}
+
+.video{
+    width:600px;
+    height:500px;
+    transform: translatex(680px);
+}
+.audio{
+    width:600px;
+    height:500px;
+    transform: translatex(680px);
+}
+  
